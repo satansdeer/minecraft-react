@@ -25,9 +25,7 @@ function App() {
         <Ground />
         <Player />
         <Cube position={[0, 0.5, -10]} />
-        {
-          cubes.map(cube => cube)
-        }
+        {cubes}
       </Physics>
     </Canvas>
   )
