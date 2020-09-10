@@ -6,7 +6,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "drei": "^1.4.0-alpha.0",
+    "drei": "^1.5.3",
     "nanoid": "^3.1.12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
