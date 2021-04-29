@@ -14,7 +14,7 @@
     "react-scripts": "3.4.3",
     "react-three-fiber": "4.2.21",
     "recoil": "0.0.10",
-    "three": "0.120.1",
+    "three": "0.125.0",
     "use-cannon": "0.5.1"
   },
   "scripts": {
