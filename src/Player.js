@@ -1,34 +1,32 @@
-import React, { useEffect, useRef } from "react";
-import { useSphere } from "use-cannon";
-import { useThree, useFrame } from "react-three-fiber";
-import { PointerLockControls } from "./PointerLockControls";
-import { usePlayerControls } from "./usePlayerControls";
-import { Vector3 } from "three";
+import React, { useEffect, useRef } from 'react';
+import { useSphere } from 'use-cannon';
+import { useThree, useFrame } from 'react-three-fiber';
+import { PointerLockControls } from './PointerLockControls';
+import { usePlayerControls } from './usePlayerControls';
+import { Vector3 } from 'three';
 
 const SPEED = 5;
 
-export const Player = (props) => {
+export const Player = props => {
   const { camera } = useThree();
   const {
     moveForward,
     moveBackward,
     moveLeft,
     moveRight,
-    jump,
+    jump
   } = usePlayerControls();
   const [ref, api] = useSphere(() => ({
     mass: 1,
-    type: "Dynamic",
+    type: 'Dynamic',
     position: [0, 10, 0],
-    ...props,
+    ...props
   }));
 
-  const velocity = useRef([0, 0, 0])
+  const velocity = useRef([0, 0, 0]);
   useEffect(() => {
-    api.velocity.subscribe((v) => (
-      velocity.current = v
-    ))
-  }, [])
+    api.velocity.subscribe(v => (velocity.current = v));
+  }, [api.velocity]);
 
   useFrame(() => {
     camera.position.copy(ref.current.position);
@@ -46,11 +44,11 @@ export const Player = (props) => {
       .normalize()
       .multiplyScalar(SPEED)
       .applyEuler(camera.rotation);
-    
-    api.velocity.set(direction.x, velocity.current[1], direction.z)
-    
-    if(jump && Math.abs(velocity.current[1].toFixed(2)) < 0.05) {
-      api.velocity.set(velocity.current[0], 10, velocity.current[2])
+
+    api.velocity.set(direction.x, velocity.current[1], direction.z);
+
+    if (jump && Math.abs(velocity.current[1].toFixed(2)) < 0.05) {
+      api.velocity.set(velocity.current[0], 10, velocity.current[2]);
     }
   });
 
