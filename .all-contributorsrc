@@ -22,6 +22,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "parweb",
+      "name": "chris",
+      "avatar_url": "https://avatars.githubusercontent.com/u/174339?v=4",
+      "profile": "http://www.parweb.fr/",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
