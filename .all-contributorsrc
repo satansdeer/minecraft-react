@@ -6,6 +6,15 @@
   "commit": false,
   "contributors": [
     {
+      "login": "satansdeer",
+      "name": "Maksim Ivanov",
+      "avatar_url": "https://avatars.githubusercontent.com/u/450319?v=4",
+      "profile": "http://maksimivanov.com",
+      "contributions": [
+        "maintenance"
+      ]
+    },
+    {
       "login": "mockingbird001",
       "name": "Phawat Nasompong",
       "avatar_url": "https://avatars.githubusercontent.com/u/41034406?v=4",
@@ -28,15 +37,6 @@
       "name": "chris",
       "avatar_url": "https://avatars.githubusercontent.com/u/174339?v=4",
       "profile": "http://www.parweb.fr/",
-      "contributions": [
-        "maintenance"
-      ]
-    },
-    {
-      "login": "satansdeer",
-      "name": "Maksim Ivanov",
-      "avatar_url": "https://avatars.githubusercontent.com/u/450319?v=4",
-      "profile": "http://maksimivanov.com",
       "contributions": [
         "maintenance"
       ]
