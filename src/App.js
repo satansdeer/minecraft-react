@@ -1,9 +1,9 @@
 import React from 'react';
 import { RecoilRoot } from 'recoil';
 import { Canvas } from 'react-three-fiber';
-import { Sky } from 'drei';
+import { Sky } from '@react-three/drei';
 import { Vector3 } from 'three';
-import { Physics } from 'use-cannon';
+import { Physics } from '@react-three/cannon';
 
 import { Ground } from './Ground';
 import { Camera } from './Camera';

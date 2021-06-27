@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import { useBox } from 'use-cannon';
+import { useBox } from '@react-three/cannon';
 
 import dirt from './dirt.jpg';
 import { TextureLoader } from 'three';
