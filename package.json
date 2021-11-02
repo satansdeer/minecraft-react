@@ -3,19 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-three/cannon": "^2.3.5",
+    "@react-three/drei": "^7.0.2",
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "11.0.2",
     "@testing-library/user-event": "12.1.4",
-    "drei": "1.5.3",
     "nanoid": "3.1.12",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-merge-refs": "1.1.0",
-    "react-scripts": "3.4.3",
-    "react-three-fiber": "4.2.21",
+    "react-scripts": "^4.0.3",
+    "react-three-fiber": "^6.0.13",
     "recoil": "0.0.10",
-    "three": "0.125.0",
-    "use-cannon": "0.5.1"
+    "three": "^0.129.0"
   },
   "scripts": {
     "start": "react-scripts start",
