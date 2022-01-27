@@ -15,7 +15,7 @@
     "react-scripts": "^4.0.3",
     "react-three-fiber": "^6.0.13",
     "recoil": "0.0.10",
-    "three": "^0.129.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
