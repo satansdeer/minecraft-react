@@ -15,6 +15,39 @@ Here is a [video](https://www.youtube.com/watch?v=Lc2JvBXMesY) showing how it wa
 
 To run the project clone the repository and run `yarn && yarn start` to launch the app.
 
+To install yarn, it is recommended to use npm -
+ `npm install --global yarn`
+ 
+To install Node.js and npm, click [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+
+## Playing the Game
+
+### Controls
+
+`w` - move forward
+
+`a` - move left
+
+`s` - move backward
+
+`d` - move right
+
+`spacebar` - jump
+
+`left-click` - place block
+
+### Building Blocks
+
+Each game starts with one existing dirt block that is used as the starting point for building:
+
+![mc_start](https://user-images.githubusercontent.com/61980366/218327157-97d65445-a07e-4963-bc4e-112adf0c3df5.PNG)
+
+To build more blocks, aim your camera at one side of the block until it darkens, then click to add a new block:
+
+![mc_build](https://user-images.githubusercontent.com/61980366/218327282-e51f7a82-4260-47a0-91b3-929df44bc5ec.PNG)
+
+Note: New blocks must be added as additions to an existing block.
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
